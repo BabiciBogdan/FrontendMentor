@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+@media only screen and (max-width: 2900px){
+body{
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color:hsl(204, 43%, 93%);
+    
+}
+.header{
+    background-color: white;
+    width: 40%;
+    height: 50%;
+    flex-direction: column;
+    border-radius: 7px;
+    
+}
+h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 2rem;
+    padding: 20px 0px 0px 20px;
+
+}
+h2{
+    padding: 0px 0px 0px 20px;
+    color: hsl(71, 73%, 54%);
+}
+p{
+    padding: 0px 0px 10px 20px;
+    color:  #c4c7cf; 
+    font-weight: 700;
+   
+}
+
+.footer{
+    display:flex;
+    width: 40%;
+    height: 50%;
+}
+.stanga{
+    display: flex;
+    flex: 0.5;
+    flex-direction: column;
+    background-color:#2bb3b1;
+    border-bottom-left-radius: 7px;
+    
+}
+
+.primult{
+    color: white;
+    margin: 2rem 0 0rem 1rem;
+    font-size: 1.2rem;
+}
+h3{
+    color: white;
+    font-size: 2rem;
+    margin:0.8rem 0 0 2rem;
+}
+span{
+    color: #68ccd3; 
+    font-size: 1rem;
+}
+.doit{
+    color:#97f3f1; 
+    margin: 0.8rem 0rem 0rem 1rem;
+    font-size: 1rem;
+    
+}
+button{
+    background-color:#bfdf32;
+    align-self: center;
+    color: white;
+    padding: 1rem 5.5rem;
+    border-radius: 7px;
+    margin-bottom: 1.3rem;
+    margin-top: 0.7rem;
+    border: none;
+    font-size: 1rem;
+}
+.dreapta{
+    background-color:#4abebd;
+    flex:0.5;
+    border-bottom-right-radius: 7px;
+}
+.paragrafe{
+    color: #97f3f1;
+    margin: 0.8rem 0 1.4rem 2.2rem;
+    line-height: 1.3rem;
+    
+}
+.attribution{
+    padding-top: 10px
+}
+}
+@media only screen and (max-width: 1440px){
+.header{
+width: 55%;
+
+}
+.footer{
+    width: 55%
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-weight: 700;
+    font-size: 1rem;
+}
+h3{
+    font-size: 2rem;
+    margin-top: 1.7rem;
+}
+body{
+    display:flex;
+
+}
+.primult{
+    font-size: 1.7rem;
+}
+.doit{
+    font-size: 1.2rem;
+    margin-top: 1.7rem;
+}
+
+.stanga{
+    display:flex;
+}
+button{
+    padding: 0.8rem 5.5rem;
+    font-size: 1rem;
+    margin-top: 1.7rem;
+}
+.paragrafe{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-top: 1.6rem;
+}
+.attribution{
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 922px){
+body{
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 70%
+}
+.footer{
+    width: 70%;
+}
+}
+@media only screen and (max-width: 800px){
+body{
+    display:flex;
+    width: 100%;
+    justify-content: flex-start;
+    height: 1100px;
+    }
+.header{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 0.5;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.stanga{
+    flex: 0.8;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    
+}
+.primult, h3, .doit{
+    margin: 1rem 0rem 0.2rem 0rem;
+}
+.dreapta{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    width: 100%;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.primult{
+    margin:1.9rem 0 0 0.9rem;
+    font-size: 2.1rem;
+}
+h3{
+    font-size: 1.9rem;
+    margin: 1.6rem 0 0.6rem 2rem;
+}
+.doit{
+    font-size: 1.7rem;
+    margin: 1rem 0rem 0rem 1rem;
+}
+.paragrafe{
+    margin:1.3rem 0 1rem 2rem;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    padding-bottom: 1rem;
+    
+}
+h1, h2, p{
+    margin-left:1rem;
+    padding-right: 0.3rem; 
+}
+h1{
+    font-size:2.1rem;
+}
+h2{
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1.2rem;
+}
+button{
+    padding: 0.9rem 8.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+.attribution{
+    margin: 5.5rem 0 0 0rem;
+    font-size: 0.75rem;
+}
+}
+
+@media only screen and (max-width: 445px){
+    body{
+        display:flex;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .header{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex:0.65;
+    }
+    .footer{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+       
+    }
+    .stanga{
+        flex:1;
+        width: 100%;
+        border-bottom-left-radius: 0;
+        align-items: center;
+        
+    }
+    .primult, h3, .doit{
+        margin: 1rem 0rem 0.2rem 0rem;
+    }
+    .dreapta{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+        align-items: center;
+        
+    }
+    .primult{
+        margin:2rem 0 0 0;
+        font-size: 2rem;
+        padding: 0;
+
+    }
+    .doit{
+        font-size: 1.4rem;
+    }
+    h3{
+        font-size: 1.9rem;
+    }
+    .paragrafe{
+        margin:1.6rem 0 1rem 0;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
+        
+    }
+    h1{
+        font-size:2.5rem;
+    }
+    h2{
+        font-size: 1.7rem;
+    }
+    p{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+    button{
+        padding: 0.8rem 6.5rem;
+        font-size: 1.2rem;
+        margin-top: 1.6rem;
+    }
+ 
+    .attribution{
+        height: 24px;
+        margin: 1.1rem 0 0 0rem;
+        padding: 0;  
+    }
+    }
+
+@media only screen and (max-width: 376px){ 
+    body{
+        display:flex;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .header{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex: 0.6;
+    }
+    
+    .footer{
+        display:flex;
+        width: 100%;
+    }
+    .stanga{
+        display:flex;
+        align-items: center;
+        flex: 0.42;
+        
+    }
+    .dreapta{
+        display:flex;
+        align-items: center;
+        flex: 0.5;
+    }
+    .primult{
+    font-size: 1.5rem;
+    margin:1.7rem 0 0.3rem 0;
+}
+h3{
+    font-size: 1.5rem;
+    margin:0.5rem 0 0.5rem 0;
+}
+.doit{
+    font-size: 1rem;
+    margin:1rem 0 0rem 0rem;
+    
+}
+button{
+    padding: 0.8rem 5.5rem;
+    margin-bottom:1.6rem;
+    font-size: 1rem;
+    margin-top: 0.6rem;
+}
+.paragrafe{
+    font-size: 1.1rem;
+    margin:1.2rem 0 0rem 0;
+}
+
+.doit{
+    margin:0;
+}
+
+ h1{
+     font-size: 1.9rem;
+     padding-top: 2.0rem;
+     margin:0;
+     
+ }
+ h2{
+     font-size: 1.2rem;
+     margin:1.5rem 0 0.6rem 0;
+     padding:0;
+     text-align: center;
+     
+ }
+ p{
+     font-size: 1.1rem;
+     text-align: left;
+     margin-top:1rem;
+     padding: 0.5rem 1rem 1.4rem 1rem;
+     text-align: center;
+ } 
+
+
+.attribution{
+   margin:0rem 0 0 0;
+   padding:0;
+   height: 0px;
+}
+}
+
